@@ -525,6 +525,7 @@ header .menu-desktop ul li a:hover {
 footer .flex {
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 footer {
@@ -539,6 +540,16 @@ footer > .interface {
 
 footer .button-redes, footer .button-redes ul {
   margin-top: 0;
+}
+
+.autor a {
+  text-decoration: none;
+  color: #e9a209;
+  transition: .2s;
+}
+
+.autor:hover a {
+  color: #ffcb45;
 }
 
 /* ESTILO MOBILE */
