@@ -171,6 +171,12 @@ header .menu-desktop ul li a:hover {
   transform: scale(1.05);
 }
 
+header .menu-desktop ul li.active a {
+  color: #1d1d1d;
+  border-bottom: 3px solid #ffe100;
+  transform: scale(1.05);
+}
+
 /* ESTILO MENU MOBILE */
 
 .menu-mobile {
